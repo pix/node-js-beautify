@@ -1,0 +1,34 @@
+{
+  "name": "node-js-beautify",
+  "description": "Another fork of js-beautify for node",
+  "version": "0.1.0",
+  "homepage": "https://github.com/pix/node-js-beautify",
+  "author": {
+    "name": "Camille Moncelier",
+    "email": "camille@moncelier.fr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pix/node-js-beautify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pix/node-js-beautify/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/pix/node-js-beautify/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/node-js-beautify",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.11"
+  },
+  "keywords": ["beautifier", "beautify", "pretty", "print", "printer"]
+}
